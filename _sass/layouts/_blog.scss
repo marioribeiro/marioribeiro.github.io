@@ -88,7 +88,7 @@ figcaption {
     display: block;
     list-style-type: none;
     i {
-      @include margin(null 10px null 10px);
+      margin: 0 10px 0 10px;
     }
   }
 }

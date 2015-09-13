@@ -13,7 +13,9 @@ $burger-rotation: 45deg;
 
 
 .burger-icon {
-  @include position(fixed, 20px 20px null null);
+  position: fixed;
+  top: 20px;
+  right: 20px;
   z-index: 100;
   width: $burger-line-width;
   height: $burger-height;

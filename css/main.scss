@@ -6,8 +6,6 @@
 @import 'base/variables';
 @import 'base/global';
 @import 'font-awesome/font-awesome';
-@import 'bourbon';
-@import 'neat';
 @import 'components/burger';
 @import 'layouts/nav';
 @import 'layouts/blog';
@@ -41,7 +39,7 @@ div.container {
 }
 
 div.about-intro {
-  @include margin(80px null null null);
+  margin:80px 0 0 0;
   width: 540px;
   float: left;
 }
@@ -52,25 +50,25 @@ div.about-image {
   text-align: center;
     img {
       width: 320px;
-      @include margin(40px null null null);
+      margin: 40px 0 0 0;
     }
 }
 
 
 div.about-tagline {
-  @include margin(150px null null null);
+  margin: 150px 0 0 0;
   text-align: center;
   margin: 0 auto;
   width: 700px;
   float: none;
   img {
     width: 140px;
-    @include margin(100px null 40px null);
+    margin: 100px 0 40px 0;
   }
 }
 
 .about-colophon {
-  @include padding(50px null 140px null);
+  padding: 50px 0 140px 0;
   float: left;
   width: 960px;
 }
@@ -82,7 +80,7 @@ div.about-tagline {
   text-align: center;
   h1 {
     color: white;
-    @include margin(80px 0 0 0);
+    margin: 80px 0 0 0;
   }
   .logo {
     width: 140px;
