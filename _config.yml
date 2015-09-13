@@ -1,0 +1,13 @@
+# Site settings
+title: Mario Ribeiro Homepage
+email: mail@marioribeiro.com
+description: > # Mario Ribeiro homepage. I'm a product manager, designer and developer based in London.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.marioribeiro.com" # the base hostname & protocol for your site
+twitter_username: marioribeiro
+github_username:  marioribeiro
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, Gemfile, Gemfile.lock, package.json, gulpfile.js]
+gems: [bourbon, neat, octopress-autoprefixer]

@@ -1,0 +1,38 @@
+---
+layout: default
+class: blog
+---
+<div class="burger-icon green"><i></i><i></i><i></i></div>
+  <div class="container">
+    <div class="about-tagline">
+        <img src="/images/logo-green.png" alt="Logo" />
+    </div>
+    <div class="blog-posts">
+        <ul class="blog-list">
+          {% for post in site.posts %}
+            <li>
+              <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
+              <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+              <p class="post-intro">
+                {{ post.content | strip_html | truncate:190 }}
+              </p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="highlighted"><span class="post-readmore">Continue Reading<i class="fa fa-angle-right"></i></span></a>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+    <!-- <div class="blog-pagination">
+      <ul>
+        <li>
+          <a href="#" class="highlighted"><i class="fa fa-angle-left"></i><span class="newer-posts">Newer posts</span></a>
+        </li>
+        <li>
+          <span class="newer-posts">Page 2 of 4</span></a>
+        </li>
+        <li>
+          <a href="#" class="highlighted"><span class="older-posts">Newer posts</span><i class="fa fa-angle-right"></i></a>
+        </li>
+      </ul>
+    </div> -->
+    <a href="#0" class="cd-top">Top</a>
+    </div>

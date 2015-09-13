@@ -1,0 +1,72 @@
+
+// Hamburger Icon Variables
+
+$burger-color: $white;
+$burger-active-color: #000A2D;
+$burger-width: 32px;
+$burger-height: 20px;
+$burger-line-width: 32px;
+$burger-line-height: 2px;
+$burger-translateY: ($burger-height / 2);
+$burger-translateX: 0;
+$burger-rotation: 45deg;
+
+
+.burger-icon {
+  @include position(fixed, 20px 20px null null);
+  z-index: 100;
+  width: $burger-line-width;
+  height: $burger-height;
+  display: block;
+  cursor: pointer;
+  margin: 20px;
+  float: right;
+   i {
+     position: absolute;
+     display: block;
+     left: 0;
+     height: $burger-line-height;
+     width: $burger-line-width;
+     background-color: $burger-color;
+     border-radius: ($burger-line-height / 2);
+     opacity: 1;
+     transition: all 0.4s ease-out;
+      &.green {
+        background-color: $burger-color-2;
+      }
+      &:nth-child(1) {
+        top: 0;
+      }
+      &:nth-child(2) {
+        top: 50%;
+      }
+      &:nth-child(3) {
+        top: 100%;
+      }
+    }
+  &.green i {
+    background-color: $burger-color-2;
+  }
+  &:hover {
+    i:nth-child(1) {
+    transform: translateY($burger-line-height * 2 * -1);
+    }
+    i:nth-child(3) {
+    transform: translateY($burger-line-height * 2);
+    }
+  }
+
+  &.active {
+    i:nth-child(1) {
+      transform: translateY($burger-translateY) translateX($burger-translateX) rotate($burger-rotation);
+      background-color: $burger-active-color;
+    }
+    i:nth-child(2) {
+      opacity: 0;
+    }
+    i:nth-child(3) {
+      transform: translateY($burger-translateY * -1) translateX($burger-translateX) rotate($burger-rotation * -1);
+      background-color: $burger-active-color;
+    }
+  }
+}
