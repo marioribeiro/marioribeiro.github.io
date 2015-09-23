@@ -1,11 +1,9 @@
 # Site settings
-title: Mario Ribeiro Homepage
+title: Mário Ribeiro - Product Manager & UI / UX Designer
 email: mail@marioribeiro.com
 description: > # Mario Ribeiro homepage. I'm a product manager, designer and developer based in London.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.marioribeiro.com" # the base hostname & protocol for your site
-twitter_username: marioribeiro
-github_username:  marioribeiro
+baseurl: ""
+url: "http://www.marioribeiro.com"
 
 # Build settings
 markdown: kramdown

@@ -59,3 +59,93 @@ body {
 p {
   padding: 8px 0;
 }
+
+body {
+  &.landing {
+    background-color: $background-color-landing;
+  }
+  &.about {
+    background-color: $background-color-body;
+  }
+  &.blog {
+    background-color: $background-color-body;
+  }
+}
+
+div.container {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  top: 0;
+  position: relative;
+  transition: transform 0.5s ease-out;
+    &.nav-opened {
+      transform: translateX(-325px);
+    }
+}
+
+div.about-intro {
+  margin:80px 0 0 0;
+  width: 540px;
+  float: left;
+}
+
+div.about-image {
+  width: 420px;
+  float: left;
+  text-align: center;
+    img {
+      width: 320px;
+      margin: 40px 0 0 0;
+    }
+}
+
+div.about-tagline {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+  float: none;
+}
+
+.logo {
+  margin: 0 auto 40px auto;
+}
+
+.about-colophon {
+  padding: 50px 0 140px 0;
+  float: left;
+  width: 960px;
+}
+
+.tagline {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  text-align: center;
+  h1 {
+    color: white;
+    margin: 80px 0 0 0;
+  }
+  .logo {
+    width: 140px;
+  }
+}
+
+/**** Animation / Waipoints - WIP ****/
+.wp1, .wp2, .wp3 {
+  animation-delay: 0.5s;
+  visibility: hidden;
+}
+
+.bounceInLeft, .bounceInRight, .fadeIn, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
+  visibility: visible;
+}
+
+.about-intro h3 {
+  padding-bottom: 15px;
+}
+
+.about-colophon h3 {
+  padding-bottom: 15px;
+}
