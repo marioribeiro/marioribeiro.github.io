@@ -37,6 +37,11 @@ $(document).ready(function(){
   },function(){
     $('.main-nav').removeClass('facebook');
   });
+  $('.icon-email').hover(function(){
+    $('.main-nav').addClass('email');
+  },function(){
+    $('.main-nav').removeClass('email');
+  });
 });
 
 /*** Back to Top ****/

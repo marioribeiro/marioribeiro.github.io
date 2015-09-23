@@ -75,15 +75,24 @@ nav a:hover:before, .underlined:hover:before {
 
 .contacts {
   position: absolute;
-  top: 90%;
+  top: 88%;
   width: 320px;
   text-align: center;
+}
+
+.get-in-touch {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .contacts i {
   font-size: 28px;
   color: $darkblue;
-  padding: 10px;
+  padding: 0 10px 0 10px;
   &:hover {
     color: #fff;
   }
@@ -108,4 +117,8 @@ nav a:hover:before, .underlined:hover:before {
 
 .facebook {
   background-color: $facebook;
+}
+
+.email {
+  background-color: $grey;
 }
