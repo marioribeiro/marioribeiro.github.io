@@ -1,0 +1,27 @@
+// SVG Logo & Stroke Animation //
+
+#logotype {
+  stroke: $green;
+}
+
+.landing #logotype {
+  stroke: $white;
+}
+
+.landing #logo-m {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s linear forwards 0s;
+}
+
+.landing #logo-r {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1s linear forwards 1s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

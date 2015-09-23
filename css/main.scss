@@ -5,6 +5,7 @@
 @import 'base/normalize';
 @import 'base/variables';
 @import 'base/global';
+@import 'components/logo';
 @import 'font-awesome/font-awesome';
 @import 'components/burger';
 @import 'layouts/nav';
@@ -54,17 +55,16 @@ div.about-image {
     }
 }
 
-
 div.about-tagline {
-  margin: 150px 0 0 0;
+  padding-top: 100px;
   text-align: center;
   margin: 0 auto;
   width: 700px;
   float: none;
-  img {
-    width: 140px;
-    margin: 100px 0 40px 0;
-  }
+}
+
+.logo {
+  margin: 0 auto 40px auto;
 }
 
 .about-colophon {
