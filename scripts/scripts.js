@@ -89,6 +89,8 @@ $(document).ready(function() {
   });
 });
 
+/**** Typing Effect - Landing Page ****/
+
 $(function(){
     $(".role").typed({
       strings: ["Designer", "Product Manager","Developer"],
