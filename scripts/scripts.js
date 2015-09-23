@@ -88,3 +88,14 @@ $(document).ready(function() {
     offset: '70%'
   });
 });
+
+$(function(){
+    $(".role").typed({
+      strings: ["Designer", "Product Manager","Developer"],
+      typeSpeed: 100,
+      loop: true,
+      startDelay: 5500,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+});
