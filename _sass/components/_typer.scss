@@ -1,8 +1,8 @@
 .typed-cursor{
     opacity: 0;
-    -webkit-animation: blink 0.7s infinite 2s;
-    -moz-animation: blink 0.7s infinite 2s;
-    animation: blink 0.7s infinite 2s;
+    -webkit-animation: blink 0.7s infinite 3s;
+    -moz-animation: blink 0.7s infinite 3s;
+    animation: blink 0.7s infinite 3s;
 }
 @keyframes blink{
     0% { opacity:1; }
