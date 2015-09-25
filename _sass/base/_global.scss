@@ -149,3 +149,91 @@ div.about-tagline {
 .about-colophon h3 {
   padding-bottom: 15px;
 }
+
+
+// Responsive initial work
+
+// Tablet
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    div.container {
+      width: 90%;
+      max-width: 660px;
+    }
+
+    div.about-intro {
+      width: 100%;
+    }
+
+    div.about-tagline {
+      width: 100%;
+    }
+
+    div.about-image {
+      display: none;
+    }
+
+    div.about-colophon {
+      width: 100%;
+    }
+
+    div.burger-icon {
+      top: 15px;
+      right: 15px;
+      margin: 10px;
+    }
+}
+
+// iPhone 5 / 5S
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+    div.container {
+      width: 90%;
+    }
+
+    div.about-tagline {
+      width: 90%;
+    }
+    div.about-intro {
+      width: 90%;
+    }
+    div.about-image {
+      display: none;
+    }
+    div.about-colophon {
+      width: 90%;
+    }
+
+    .tagline h1 {
+      margin-top: 0px;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    #logo {
+      width: 125px;
+    }
+
+    h1,h2 {
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    body {
+      font-size: 18px;
+    }
+
+    div.burger-icon {
+      top: 10px;
+      right: 10px;
+      margin: 10px;
+    }
+}

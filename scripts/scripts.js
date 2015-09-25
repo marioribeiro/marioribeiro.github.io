@@ -80,17 +80,17 @@ $(document).ready(function() {
   $('.about-image').waypoint(function() {
   	$('.about-image').addClass('animated fadeInRight');
   }, {
-  	offset: '80%'
+  	offset: '90%'
   });
   $('.about-intro').waypoint(function() {
     $('.about-intro').addClass('animated fadeIn');
   }, {
-    offset: '80%'
+    offset: '90%'
   });
   $('.about-colophon').waypoint(function() {
     $('.about-colophon').addClass('animated fadeIn');
   }, {
-    offset: '70%'
+    offset: '95%'
   });
 });
 

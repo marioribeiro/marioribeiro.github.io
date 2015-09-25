@@ -122,3 +122,27 @@ nav a:hover:before, .underlined:hover:before {
 .email {
   background-color: $grey;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+
+    .avatar {
+      margin: 20px auto 40px auto;
+      width: 115px;
+    }
+
+    .contacts {
+      top: 85%;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .main-nav {
+      width: 280px;
+      &.hidden {
+        transform: translate3d(280px, 0, 0);
+      }
+    }
+
+  }
