@@ -99,16 +99,16 @@ figcaption {
   and (min-device-width: 320px)
   and (max-device-width: 568px) {
     .blog-posts {
-      width: 90%;
+      width: 95%;
       margin: 0 auto;
     }
 
-    h1 .post-title, h3 .post-title {
-        font-size: 24px;
+    h3 .post-title, a .post-title {
+        font-size: 22px;
     }
 
     .post {
-      width: 90%;
+      width: 95%;
     }
 
     img {
@@ -124,11 +124,11 @@ figcaption {
     and (max-device-width: 1024px) {
 
       .blog-posts {
-        width: 90%;
+        width: 95%;
       }
 
       .post {
-        width: 90%;
+        width: 95%;
         max-width: 660px;
       }
 }

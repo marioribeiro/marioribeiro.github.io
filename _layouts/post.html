@@ -6,7 +6,7 @@ class: blog
   <div class="container">
     <div class="post">
       <div class="about-tagline">
-        <a href="/blog"><img src="/images/logo-green.png" alt="Logo" /></a>
+        {% include logo.html %}
       </div>
       <header class="post-header">
         <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
