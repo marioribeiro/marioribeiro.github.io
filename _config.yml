@@ -8,4 +8,4 @@ url: "http://www.marioribeiro.com"
 # Build settings
 markdown: kramdown
 exclude: [node_modules, Gemfile, Gemfile.lock, package.json, gulpfile.js]
-gems: [bourbon, neat, octopress-autoprefixer]
+gems: [octopress-autoprefixer]

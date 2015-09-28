@@ -1,6 +1,6 @@
 // Global CSS goes here
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic&subset=latin,latin-ext);
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext);
+// @import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
 
@@ -156,8 +156,8 @@ div.about-tagline {
 // Tablet
 
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px) {
+  and (min-width: 768px)
+  and (max-width: 1024px) {
     div.container {
       width: 90%;
       max-width: 660px;
@@ -188,8 +188,8 @@ div.about-tagline {
 
 // iPhone 5 / 5S
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px) {
+  and (min-width: 320px)
+  and (max-width: 767px) {
     div.container {
       width: 90%;
     }
@@ -201,7 +201,10 @@ div.about-tagline {
       width: 95%;
     }
     div.about-image {
-      display: none;
+      width: 95%;
+      img {
+        width: 95%;
+      }
     }
     div.about-colophon {
       width: 95%;

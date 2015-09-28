@@ -96,8 +96,8 @@ figcaption {
 // Mobile iPhone
 
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px) {
+  and (min-width: 320px)
+  and (max-width: 568px) {
     .blog-posts {
       width: 95%;
       margin: 0 auto;
@@ -120,8 +120,8 @@ figcaption {
 // Tablet
 
   @media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1024px) {
+    and (min-width: 768px)
+    and (max-width: 1024px) {
 
       .blog-posts {
         width: 95%;
