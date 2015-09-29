@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I <3 Sketch and I'm not the only one"
+title:  "I love Sketch and I'm not the only one"
 date:   2015-09-11 21:30:00
 categories: blog
 ---

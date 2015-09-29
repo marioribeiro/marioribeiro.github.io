@@ -136,6 +136,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 39)
   jekyll
+  jemoji
   octopress-autoprefixer
 
 BUNDLED WITH
