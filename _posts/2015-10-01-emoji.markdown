@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Emoji"
+date:   2015-10-01 23:45:00
+categories: blog
+---
+
+This blog now supports Emoji! I'm not a huge fan of using them and apparently still I'm an old school guy that still uses "lol" :flushed: but I thought it would be cool to add them. :sunglasses:
+
+I'm using the [jemoji](https://github.com/jekyll/jemoji) plugin for Jekyll and it was quick and easy to implement.
+
+I'll try to give it a moderate use.
+
+Now I'll finish my :coffee: and carry on with more important tasks.
+<br>
+<br>
+:heart: <br>
+Mário

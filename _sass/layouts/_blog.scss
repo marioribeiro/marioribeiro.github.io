@@ -58,9 +58,20 @@ h3 .post-title {
 .post-content {
   margin-top: 15px;
   padding-bottom: 100px;
+  .emoji {
+    display: inline;
+  }
   img {
     display: block;
     margin: 0 auto;
+  }
+
+  ul {
+    list-style-type: circle;
+    padding: 10px 0 10px 40px;
+    li {
+      padding: 4px 0px;
+    }
   }
 }
 
