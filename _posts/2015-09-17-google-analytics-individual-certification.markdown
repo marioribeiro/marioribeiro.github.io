@@ -48,6 +48,8 @@ This post is not supposed to be a "how to master the GAIQ exam" but here are som
 * [Google Partners](https://www.google.co.uk/partners/)
 * [5 step plan to master GAIQ](https://moz.com/ugc/a-5step-plan-to-mastering-the-new-gaiq-exam)
 
+<br>
+<br>
 
 ### Conclusion
 
