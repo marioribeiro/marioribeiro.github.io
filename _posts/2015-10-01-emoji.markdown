@@ -5,7 +5,7 @@ date:   2015-10-01 21:45:00
 categories: blog
 ---
 
-This blog now supports Emoji! I'm not a huge fan of using them and apparently still I'm an old school guy that still uses "lol" :flushed: but I thought it would be cool to add them. :sunglasses:
+This blog now supports Emoji! I'm not a huge fan of using them and apparently I'm still an old school guy that still uses "lol" :flushed: but I thought it would be cool to add them. :sunglasses:
 
 I'm using the [jemoji](https://github.com/jekyll/jemoji) plugin for Jekyll and it was quick and easy to implement.
 
