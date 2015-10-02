@@ -8,4 +8,4 @@ url: "http://marioribeiro.com"
 # Build settings
 markdown: kramdown
 exclude: [node_modules, Gemfile, Gemfile.lock, package.json, gulpfile.js]
-gems: [octopress-autoprefixer, jemoji]
+gems: [octopress-autoprefixer, jemoji, jekyll-sitemap]
