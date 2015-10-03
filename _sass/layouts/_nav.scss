@@ -89,15 +89,18 @@ nav a:hover:before, .underlined:hover:before {
   font-weight: 400;
 }
 
-.contacts i {
+.contacts {
+  a {
+    padding: 10px 10px 10px 10px;
+  }
+  i {
   font-size: 28px;
   color: $darkblue;
-  padding: 0 10px 0 10px;
   &:hover {
     color: #fff;
   }
 }
-
+}
 
 .twitter {
   background-color: $twitter;
