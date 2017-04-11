@@ -42,6 +42,11 @@ $(document).ready(function(){
   },function(){
     $('.main-nav').removeClass('email');
   });
+  $('.icon-github').hover(function(){
+    $('.main-nav').addClass('github');
+  },function(){
+    $('.main-nav').removeClass('github');
+  });
 });
 
 /*** Back to Top ****/
