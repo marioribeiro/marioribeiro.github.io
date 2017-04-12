@@ -5,7 +5,7 @@ date:   2015-08-17 20:15:00
 categories: blog
 ---
 I'm Mário and I have a confession to make. At the time of this post I'm 31 years old and I've never had a blog.
-I decided to change this fact so I've re-designed my website and started using [Jekyll][jekyll] to powered it.
+I decided to change this fact so I've re-designed my website and started using [Jekyll][jekyll] to power it.
 <br><br>
 
 ### Go outside of your comfort zone
