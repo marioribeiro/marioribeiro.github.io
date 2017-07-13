@@ -62,8 +62,9 @@ body {
     text-decoration: none;
     color: $green;
     font-weight: 300;
+    transition: all 0.3s;
     &:hover {
-      text-decoration: underline;
+      color: $darkgrey;
     }
   } 
 }
