@@ -16,16 +16,16 @@ I have seen a lot of pages and blog posts describing what developers and designe
 - I use [Airmail](http://airmailapp.com/) for emails, [Evernote](http://www.evernote.com) for taking notes, [Tomato One](https://itunes.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12) for Pomodoro, [Rescue Time](https://www.rescuetime.com) for keeping track of my computer usage.. and together with the amazing [Gyroscope](https://gyrosco.pe/) I can track A LOT about my activities 🙀
 
 # Hardware
-- Macbook Pro 15" 2.2 GHz Intel Core i7 with 16GB
-- Mac Mini 2.6GHz dual-core Intel Core i5 with 8GB
-- Dell UltraSharp UP3216Q
+- Macbook Pro 15" 2.2 GHz Intel Core i7 with 16GB.
+- Mac Mini 2.6GHz dual-core Intel Core i5 with 8GB.
+- Dell UltraSharp UP3216Q.
 - Apple Wireless Keyboard and Magic Mouse. I was tempted a few times to buy the Trackpad..
 - iPhone 7 Plus. Since I've moved away from Android a few years ago.. I've been tempted by a few devices (i.e. Google Pixel) but I've been loyal to the iPhone family.
 - Apple Watch (Series 1). This was a controversial purchase. I don't love it.. but I can't live without.. 🤔
-- iPad Pro 10.5"
+- iPad Pro 10.5".
 
 # Other interesting "Uses" pages
-If you like this kind of posts, here's a list of way more interesting persons "Uses" page
+If you like this kind of post, here's a list of way more interesting persons "Uses" pages:
 
 - [Wes Bos](http://wesbos.com/uses)
 - [Harry Roberts](https://csswizardry.com/uses/)
