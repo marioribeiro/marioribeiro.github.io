@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "What I use?"
+date:   2017-07-13 19:00
+categories: blog
+permalink: /uses/
+---
+
+I have seen a lot of pages and blog posts describing what developers and designers use daily to perform their work. Because it has been a while since I've pushed any updates to my blog.. I decided to write my own blog post listing the software and hardware I use.
+
+# Software
+- [Visual Studio Code](https://code.visualstudio.com/) AKA Code is my current code editor. Previously I was using Atom.. but there was a particular feature that made me switch after trying it a few times.... What was that feature ? Well.. I was able to move the file explorer to the right side of the window. It was that simple. After that I started to enjoy it.. and I ended using it permanently.
+- I use [Hyper](https://github.com/zeit/hyper) as my terminal.
+- [Sketch](https://www.sketchapp.com/) for UI and design work and I've been using - [Abstract](https://www.goabstract.com/) for keeping my work files under version control.
+- I backup my files with [Dropbox](https://www.dropbox.com) and [Google Drive](https://drive.google.com) for my photos.
+- I use [Airmail](http://airmailapp.com/) for emails, [Evernote](http://www.evernote.com) for taking notes, [Tomato One](https://itunes.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12) for Pomodoro, [Rescue Time](https://www.rescuetime.com) for keeping track of my computer usage.. and together with the amazing [Gyroscope](https://gyrosco.pe/) I can track A LOT about activies 🙀
+
+# Hardware
+- Macbook Pro 15" 2.2 GHz Intel Core i7 with 16GB
+- Mac Mini 2.6GHz dual-core Intel Core i5 with 8GB
+- Dell UltraSharp UP3216Q
+- Apple Wireless Keyboard and Magic Mouse. I was tempted a few times to buy the Trackpad..
+- iPhone 7 Plus. Since I've moved away from Android a few years ago.. I've been tempted by a few devices (i.e. Google Pixel) but I've been loyal to the iPhone family.
+- Apple Watch (Series 1). This was a controversial purchase. I don't love it.. but I can't live without.. 🤔
+- iPad Pro 10.5"
+
+# Other interesting "Uses" pages
+If you like this kind of posts, here's a list of way more interesting persons "Uses" page
+
+- [Wes Bos](http://wesbos.com/uses)
+- [Harry Roberts](https://csswizardry.com/uses/)
+- [Matt Smith](http://mds.is/using-stuff/)
+- [Jonathan Suh](https://jonsuh.com/uses/)
