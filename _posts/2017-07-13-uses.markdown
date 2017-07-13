@@ -13,7 +13,7 @@ I have seen a lot of pages and blog posts describing what developers and designe
 - I use [Hyper](https://github.com/zeit/hyper) as my terminal.
 - [Sketch](https://www.sketchapp.com/) for UI and design work and I've been using - [Abstract](https://www.goabstract.com/) for keeping my work files under version control.
 - I backup my files with [Dropbox](https://www.dropbox.com) and [Google Drive](https://drive.google.com) for my photos.
-- I use [Airmail](http://airmailapp.com/) for emails, [Evernote](http://www.evernote.com) for taking notes, [Tomato One](https://itunes.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12) for Pomodoro, [Rescue Time](https://www.rescuetime.com) for keeping track of my computer usage.. and together with the amazing [Gyroscope](https://gyrosco.pe/) I can track A LOT about activies 🙀
+- I use [Airmail](http://airmailapp.com/) for emails, [Evernote](http://www.evernote.com) for taking notes, [Tomato One](https://itunes.apple.com/us/app/tomato-one-free-focus-timer/id907364780?mt=12) for Pomodoro, [Rescue Time](https://www.rescuetime.com) for keeping track of my computer usage.. and together with the amazing [Gyroscope](https://gyrosco.pe/) I can track A LOT about my activities 🙀
 
 # Hardware
 - Macbook Pro 15" 2.2 GHz Intel Core i7 with 16GB
