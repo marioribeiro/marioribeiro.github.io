@@ -59,9 +59,13 @@ body {
   color: $grey;
   line-height: 30px;
   a {
+    text-decoration: none;
     color: $green;
     font-weight: 300;
-  }
+    &:hover {
+      text-decoration: underline;
+    }
+  } 
 }
 
 p {
